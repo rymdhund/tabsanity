@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Tab Sanity",
+  "version": "1.0",
+
+  "description": "Limit the number of tabs that can be opened",
+
+  "icons": {
+    "48": "icons/tabsanity-48.png"
+  },
+
+  "options_ui": {
+    "page": "options.html"
+  },
+
+  "background": {
+    "scripts": ["defaults.js", "sanity.js"]
+  },
+
+  "permissions": ["notifications", "storage"]
+}

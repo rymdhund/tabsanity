@@ -1,0 +1,8 @@
+input[type="number"] {
+  width: 5em;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
